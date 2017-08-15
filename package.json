@@ -1,0 +1,15 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Mayur Thosar",
+  "license": "MIT",
+  "dependencies": {
+    "electron": "^1.7.5",
+    "jquery": "^3.2.1"
+  }
+}
