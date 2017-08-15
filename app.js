@@ -13,7 +13,7 @@ function createWindow(){
         frame:false
     });
 
-    // win.openDevTools({detach:true})
+    win.openDevTools({detach:true})
 
     win.loadURL(url.format({
         pathname:path.join(__dirname,APP_DIR,'index.html'),

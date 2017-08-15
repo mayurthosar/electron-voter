@@ -1,33 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title id="title">Voter List</title>
-    <link rel="stylesheet" href="css/menu.css">
-    <link rel="stylesheet" href="css/reset.css">
-</head>
-<body>
-<div id="container">
-    <nav>
-        <div id="titleShown">
-        </div>
-        <div id="buttons">
-            <div id="minimize">
-                <span>-</span>
-            </div>
-            <div id="maximize">
-                <span>+</span>
-            </div>
-            <div id="close">
-                <span>&times;</span>
-            </div>
-        </div>
-    </nav>
-    <main>Hello World from electron</main>
-</div>
+<script>
 
-<script src="js/init.js"></script>
-<script src="js/menuhandler.js"></script>
-
-</body>
-</html>
+   const template = require('./template.js');
+    var title= "Index";
+    var head="";
+    var body = `<a href = 'about.html'>About</a>`;
+    template.createPage(title,head,body);
+</script>
