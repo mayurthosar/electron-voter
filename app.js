@@ -20,7 +20,6 @@ function createWindow(){
         protocol:'file:',
         slashes:true
     }));
-
 }
 app.on('ready',createWindow);
 app.on('window-all-closd', () => {

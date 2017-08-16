@@ -1,13 +1,16 @@
 function createPage(title, head, body) {
 
     var page = `<!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app="voter-app">
 <head>
     <meta charset="UTF-8">
-    ${head}
-    <title id="title">${title}</title>
-    <link rel="stylesheet" href="css/menu.css">
+   
+    <title id="title">${title}</title>  
     <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+  
+     ${head}
     
 </head>
 <body>
@@ -32,7 +35,15 @@ function createPage(title, head, body) {
 
 <script src="js/init.js"></script>
 <script src="js/menuhandler.js"></script>
-
+<script src="../node_modules/jquery/dist/jquery.min.js"></script>
+<script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="../node_modules/angular/angular.js"></script>
+<script src="../node_modules/angular-route/angular-route.js"></script>
+<script src="js/angular/renderer.js"></script>
+<ng-view></ng-view>
+<script>
+//require('js/angular/renderer.js');
+</script>
 </body>
 </html>`;
 

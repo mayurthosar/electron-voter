@@ -9,6 +9,9 @@
   "author": "Mayur Thosar",
   "license": "MIT",
   "dependencies": {
+    "angular": "^1.6.5",
+    "angular-route": "^1.6.5",
+    "bootstrap": "^3.3.7",
     "electron": "^1.7.5",
     "jquery": "^3.2.1"
   }
