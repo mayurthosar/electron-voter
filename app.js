@@ -3,7 +3,6 @@ const path = require('path');
 const url = require('url');
 
 let win;
-
 var APP_DIR = '/app/';
 
 function createWindow(){

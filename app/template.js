@@ -9,6 +9,9 @@ function createPage(title, head, body) {
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/menu.css">
     <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <script type="text/javascript" src="../node_modules/jquery/dist/jquery.min.js"></script>
+  
+  
   
      ${head}
     
@@ -35,7 +38,7 @@ function createPage(title, head, body) {
 
 <script src="js/init.js"></script>
 <script src="js/menuhandler.js"></script>
-<script src="../node_modules/jquery/dist/jquery.min.js"></script>
+
 <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 <script src="../node_modules/angular/angular.js"></script>
 <script src="../node_modules/angular-route/angular-route.js"></script>

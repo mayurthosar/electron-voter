@@ -2,6 +2,7 @@ const $=require('jquery');
 const { remote } = require('electron');
 
 var win = remote.getCurrentWindow();
+win.$ = win.jQuery = require('jquery');
 $('#minimize').click(function(){
     win.minimize();
 });
